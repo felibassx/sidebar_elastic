@@ -1,16 +1,22 @@
 # sidebar_elastic
 
-A new Flutter project.
+Menú Lateral animado, inspirado en el desarrollo de Flutter Elastic Navigation Sidebar | Flutter UI Tutorial
+Tutorial de RetroPortal Studio: https://www.youtube.com/watch?v=1KurAaGLwHc&t=26s
 
-## Getting Started
+![Image description](https://drive.google.com/open?id=1kTTmdZ5kCWtYQctiMTzIRSw7k1QfrvT0)
 
-This project is a starting point for a Flutter application.
+## Adaptación
 
-A few resources to get you started if this is your first Flutter project:
+Luego de hacer el tutorial de RetroPortal, separé los componentes del widget para utilizarlo de manera más facíl
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+En la carpeta /widget se encuentran:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  - SidebarElasticWidget: que es el menú
+  - DrawerPainter: que es la animación elastica
+  - ButtonSidebarWidget: que son los botones dentro del sidebar.
+  
+  
+
+Fuente y tutorial completo: 
+
+- [Flutter Elastic Navigation Sidebar] (https://www.youtube.com/watch?v=1KurAaGLwHc&t=26s)
