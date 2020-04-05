@@ -5,8 +5,9 @@ class ButtonSidebar extends StatelessWidget {
   final IconData iconData;
   final double textSize;
   final double height;
+  final String linkPage;
 
-  ButtonSidebar({this.text, this.iconData, this.textSize,this.height});
+  ButtonSidebar({this.text, this.iconData, this.textSize,this.height,this.linkPage});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +30,10 @@ class ButtonSidebar extends StatelessWidget {
           ),
         ],
       ),
-      onPressed: () {},
+      onPressed: (() {
+            Navigator.pushReplacementNamed(context, linkPage);
+          }
+      )
     );
   }
 }
